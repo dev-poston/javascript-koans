@@ -80,7 +80,7 @@ describe('About Objects', function() {
     expect('secretary' in meglomaniac).toBe(true);
 
     delete meglomaniac.henchman;
-    expect('henchman' in meglomaniac).toBe(FILL_ME_IN);
+    expect('henchman' in meglomaniac).toBe(false);
   });
 
 
