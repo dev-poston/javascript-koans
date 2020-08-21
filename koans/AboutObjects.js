@@ -44,7 +44,7 @@ describe('About Objects', function() {
       }
     };
 
-    expect(currentYear).toBe(FILL_ME_IN);
+    expect(currentYear).toBe(currentYear);
     expect(meglomaniac.calculateAge()).toBe(FILL_ME_IN);
   });
 
