@@ -94,7 +94,7 @@ describe('About Objects', function() {
     colouredCircle.colour = 'red';
 
     expect(simpleCircle.colour).toBe(undefined);
-    expect(colouredCircle.colour).toBe(FILL_ME_IN);
+    expect(colouredCircle.colour).toBe('red');
 
     Circle.prototype.describe = function() {
       return 'This circle has a radius of: ' + this.radius;
