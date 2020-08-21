@@ -23,7 +23,7 @@ describe('About Functions', function() {
     };
 
     expect(getMessage()).toBe('Outer');
-    expect(overrideMessage()).toBe(FILL_ME_IN);
+    expect(overrideMessage()).toBe('Inner');
     expect(message).toBe(FILL_ME_IN);
   });
 
