@@ -13,7 +13,7 @@ describe('About Objects', function() {
 
     it('should confirm that properties are case sensitive', function() {
       expect(meglomaniac.henchwoman).toBe('Harley');
-      expect(meglomaniac.henchWoman).toBe(FILL_ME_IN);
+      expect(meglomaniac.henchWoman).toBe(undefined);
     });
   });
 
