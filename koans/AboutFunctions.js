@@ -61,13 +61,13 @@ describe('About Functions', function() {
       return firstArg;
     };
 
-    expect(returnFirstArg('first', 'second', 'third')).toBe(FILL_ME_IN);
+    expect(returnFirstArg('first', 'second', 'third')).toBe('first', 'second', 'third');
 
     var returnSecondArg = function(firstArg, secondArg) {
       return secondArg;
     };
 
-    expect(returnSecondArg('only give first arg')).toBe(FILL_ME_IN);
+    expect(returnSecondArg('only give first arg')).toBe(undefined);
 
     var returnAllArgs = function() {
       var argsArray = [];
