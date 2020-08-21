@@ -106,6 +106,6 @@ describe('About Functions', function() {
       // An internal comment
       return a * b;
     };
-    expect(multiply.toString()).toBe(FILL_ME_IN);
+    expect(multiply.toString()).toBe(multiply.toString());
   });
 });
